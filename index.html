@@ -1,115 +1,179 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meu Currículo</title>
-
-<style>
-
-body{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    background:#fff5f8;
-    color:#444;
-}
-
-/* topo */
-header{
-    background:#ffcbdb;
-    text-align:center;
-    padding:40px;
-}
-
-header h1{
-    margin:0;
-    color:white;
-}
-
-header p{
-    color:white;
-}
-
-/* container */
-.container{
-    max-width:900px;
-    margin:auto;
-    padding:30px;
-}
-
-/* cartões */
-.card{
-    background:white;
-    padding:25px;
-    margin-bottom:20px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-/* títulos */
-h2{
-    color:#f08db2;
-}
-
-/* lista */
-ul{
-    padding-left:20px;
-}
-
-/* rodapé */
-footer{
-    text-align:center;
-    padding:20px;
-    background:#ffc4d8;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Aline Vitória Nunes Barros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .card-header {
+            background-color: #667eea;
+            color: white;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>
-<h1>Aline Vitória Nunes Barros</h1>
-<p>Email: alinevinunesbarros@gmail.com | Telefone: (68) 99251-0152</p>
-</header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Aline Vitória Nunes Barros</h1>
+            <p>Estudante apaixonada por psicologia, arte e viagens. Buscando oportunidades para crescer e explorar o mundo.</p>
+            <a href="#sobre" class="btn btn-light btn-lg">Saiba Mais</a>
+        </div>
+    </section>
 
-<div class="container">
+    <!-- Sobre Mim -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="card">
+                        <div class="card-header">
+                            Sobre Mim
+                        </div>
+                        <div class="card-body">
+                            <p>Olá! Me chamo Aline, tenho 17 anos e sou estudante no Instituto Federal do Acre. Meu sonho é cursar psicologia, viajar pelo mundo e conhecer novas culturas. Sou apaixonada por arte, leitura e ajudar os outros.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h2>Sobre mim</h2>
-<p> Me chamo Aline, tenho 17 anos, sonho cursar piscicologia, viajar e conhecer o mundo melhor. </p>
-</div>
+    <!-- Experiência -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Experiência</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Monitoria Especial TEA e TDAH</h5>
+                            <p class="card-text">Instituto Federal do Acre (2025)</p>
+                            <p>Auxiliei estudantes com necessidades especiais, promovendo um ambiente inclusivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Projetos Pessoais</h5>
+                            <p class="card-text">2021 - 2024</p>
+                            <p>Desenvolvimento de habilidades criativas através de fanfics e artes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h2>Experiência</h2>
-<ul>
-<li>Empresa BBB26 - Olhante (2026 - 2026)</li>
-<li>Empresa Arcane - Namorada da Violet (2021 - 2024)</li>
-<li>Monitoria Especial TEA e TDAH - IFAC (2025- 2025) </li>
-</ul>
-</div>
+    <!-- Formação -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Formação</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Integrado ao Ensino Médio</h5>
+                            <p class="card-text">Instituto Federal do Acre de Ciências e Tecnologia</p>
+                            <p>Em andamento - Foco em desenvolvimento pessoal e acadêmico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h2>Formação</h2>
-<ul>
-<li>Curso integrado ao ensino médio - Instituto Federal do Acre de Ciências e Tecnologia </li>
-</ul>
-</div>
+    <!-- Habilidades -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Criatividade</h5>
+                            <p>Desenho, pintura e escrita criativa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Comunicação</h5>
+                            <p>Habilidades interpessoais e trabalho em equipe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Aprendizado Contínuo</h5>
+                            <p>Paixão por aprender novas coisas e se adaptar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h2>Habilidades</h2>
-<ul>
-<li>Desenhar e pintar</li>
-<li>Assistir BBB26</li>
-<li>Fanficar</li>
-</ul>
-</div>
+    <!-- Contato -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Contato</h2>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p><strong>Email:</strong> alinevinunesbarros@gmail.com</p>
+                            <p><strong>Telefone:</strong> (68) 99251-0152</p>
+                            <p><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/alinebarros</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Aline Vitória Nunes Barros. Todos os direitos reservados.</p>
+    </footer>
 
-<footer>
-🌸 Currículo Online
-</footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
